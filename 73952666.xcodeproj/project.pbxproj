@@ -12,7 +12,6 @@
 		18F8590428F4496E001DF5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8590328F4496E001DF5D3 /* ViewController.swift */; };
 		18F8590728F4496E001DF5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8590528F4496E001DF5D3 /* Main.storyboard */; };
 		18F8590928F44970001DF5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F8590828F44970001DF5D3 /* Assets.xcassets */; };
-		18F8590C28F44970001DF5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8590A28F44970001DF5D3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		18F8590328F4496E001DF5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F8590628F4496E001DF5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F8590828F44970001DF5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18F8590B28F44970001DF5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F8590D28F44970001DF5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				18F8590328F4496E001DF5D3 /* ViewController.swift */,
 				18F8590528F4496E001DF5D3 /* Main.storyboard */,
 				18F8590828F44970001DF5D3 /* Assets.xcassets */,
-				18F8590A28F44970001DF5D3 /* LaunchScreen.storyboard */,
 				18F8590D28F44970001DF5D3 /* Info.plist */,
 			);
 			path = 73952666;
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F8590C28F44970001DF5D3 /* LaunchScreen.storyboard in Resources */,
 				18F8590928F44970001DF5D3 /* Assets.xcassets in Resources */,
 				18F8590728F4496E001DF5D3 /* Main.storyboard in Resources */,
 			);
@@ -153,14 +149,6 @@
 				18F8590628F4496E001DF5D3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18F8590A28F44970001DF5D3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F8590B28F44970001DF5D3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,7 +278,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 73952666/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverLearn.-3952666";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleverLearn.3952673;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +304,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 73952666/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -326,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cleverLearn.-3952666";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleverLearn.3952673;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
